@@ -5,6 +5,7 @@
     "": {
       "name": "test1",
       "dependencies": {
+        "@typescript-calendar-lib/react": "^0.4.2",
         "react": "^19.0.0",
         "react-dom": "^19.0.0",
       },
@@ -220,6 +221,12 @@
     "@types/react": ["@types/react@19.2.18", "", { "dependencies": { "csstype": "^3.2.2" } }, "sha512-AnzbBERsrLKtk2XSfTbYRLjQPdy116Sty4q+T+Bp3IC4l6jNBvreVPAHmpq9qhXQM7CXZPjLVmGMw9sy+hxQ3w=="],
 
     "@types/react-dom": ["@types/react-dom@19.2.7", "", { "peerDependencies": { "@types/react": "^19.2.0" } }, "sha512-I8bPpDLcHBv1qiIiXDCy71Rt8eQDKJP0sMSWJphDdAcdqiJ1sGpZamavoEIRZmYzjia9LuEb2HlYdDpmoENpvQ=="],
+
+    "@typescript-calendar-lib/core": ["@typescript-calendar-lib/core@0.4.2", "", {}, "sha512-RcrnECkmJq8bBI1UzFXpqgg8C6WjGIGFOx5rqPw+nWJN+LyjZ+/CkpYglzDFpRGBbIa2We2mlhV3016wRBVMfg=="],
+
+    "@typescript-calendar-lib/react": ["@typescript-calendar-lib/react@0.4.2", "", { "dependencies": { "@typescript-calendar-lib/core": "0.4.2", "@typescript-calendar-lib/tui": "0.4.2" }, "peerDependencies": { "react": "^19" } }, "sha512-BsHV4AAlXHGJiKMMJwzoSajAbD6ceN/oEpjs18hxEut4sd5S1prMss42tJiHo94LqwOoLP2h6ZgiFvKpuAPhpA=="],
+
+    "@typescript-calendar-lib/tui": ["@typescript-calendar-lib/tui@0.4.2", "", { "dependencies": { "@typescript-calendar-lib/core": "0.4.2" } }, "sha512-pMG04+qolwMMBd5jKj86fsknkqmhlvbOzG/eo5i8Po3hZzbR7RxNiJcgAMHJKaHQyw9wr0zL2TBL2oyCnxwFjA=="],
 
     "@vitejs/plugin-react": ["@vitejs/plugin-react@4.7.0", "", { "dependencies": { "@babel/core": "^7.28.0", "@babel/plugin-transform-react-jsx-self": "^7.27.1", "@babel/plugin-transform-react-jsx-source": "^7.27.1", "@rolldown/pluginutils": "1.0.0-beta.27", "@types/babel__core": "^7.20.5", "react-refresh": "^0.17.0" }, "peerDependencies": { "vite": "^4.2.0 || ^5.0.0 || ^6.0.0 || ^7.0.0" } }, "sha512-gUu9hwfWvvEDBBmgtAowQCojwZmJ5mcLn3aufeCsitijs3+f2NsrPtlAWIR6OPiqljl96GVCUbLe0HyqIpVaoA=="],
 
