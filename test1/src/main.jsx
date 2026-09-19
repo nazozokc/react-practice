@@ -1,7 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { Calendar } from "@typescript-calendar-lib/react";
-import "@typescript-calendar-lib/react/calendar.css";
+
 import "./index.css";
 import App from "./App.jsx";
 
